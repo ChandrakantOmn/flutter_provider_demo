@@ -1,10 +1,10 @@
 
 import 'package:drift/drift.dart';
-import 'package:untitled1/tod_items.dart';
-import 'package:untitled1/todo_category.dart';
+import 'package:untitled1/drift/tables/tod_items.dart';
+import 'package:untitled1/drift/tables/todo_category.dart';
 
-import 'TodoCategoryItemCount.dart';
-import 'TodoItemWithCategoryNameView.dart';
+import 'views/TodoCategoryItemCount.dart';
+import 'views/TodoItemWithCategoryNameView.dart';
 part 'database.g.dart';
 
 @DriftDatabase(tables: [

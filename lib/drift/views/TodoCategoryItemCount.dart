@@ -1,7 +1,8 @@
 
 import 'package:drift/drift.dart';
-import 'package:untitled1/tod_items.dart';
-import 'package:untitled1/todo_category.dart';
+import 'package:untitled1/drift/tables/tod_items.dart';
+
+import '../tables/todo_category.dart';
 
 abstract class TodoCategoryItemCount extends View {
   TodoItems get todoItems;
